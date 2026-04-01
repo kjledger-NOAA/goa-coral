@@ -1,0 +1,1010 @@
+"","ASV","taxon","taxonomic_level","species","genus","family","order","class","phylum","kingdom","seq_percID","diff","top_perc"
+"1","ASV1","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"2","ASV1","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"3","ASV1","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"4","ASV1","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"5","ASV1","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"6","ASV1","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"7","ASV1","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"8","ASV1","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"9","ASV1","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"10","ASV1","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"11","ASV1","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"12","ASV1","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"13","ASV1","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"14","ASV1","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"15","ASV1","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"16","ASV1","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"17","ASV1","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"18","ASV10","Acipenser fulvescens","species","Acipenser fulvescens","Acipenser","Acipenseridae","Acipenseriformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"19","ASV100","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"20","ASV100","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"21","ASV100","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"22","ASV100","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"23","ASV100","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"24","ASV101","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"25","ASV101","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"26","ASV101","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"27","ASV101","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"28","ASV101","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"29","ASV101","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"30","ASV101","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"31","ASV101","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"32","ASV101","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"33","ASV101","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"34","ASV101","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"35","ASV101","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"36","ASV101","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"37","ASV101","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"38","ASV101","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"39","ASV101","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"40","ASV101","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"41","ASV102","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"42","ASV103","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"43","ASV103","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"44","ASV103","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"45","ASV103","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"46","ASV103","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"47","ASV103","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"48","ASV103","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"49","ASV103","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"50","ASV103","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"51","ASV103","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"52","ASV103","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"53","ASV103","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"54","ASV103","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"55","ASV103","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"56","ASV103","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"57","ASV103","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"58","ASV103","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"59","ASV104","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"60","ASV105","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"61","ASV105","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"62","ASV105","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"63","ASV105","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"64","ASV105","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"65","ASV105","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"66","ASV105","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"67","ASV105","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"68","ASV105","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"69","ASV105","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"70","ASV105","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"71","ASV105","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"72","ASV105","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"73","ASV105","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"74","ASV105","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"75","ASV105","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"76","ASV105","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"77","ASV106","Anoplopoma fimbria","species","Anoplopoma fimbria","Anoplopoma","Anoplopomatidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"78","ASV107","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"79","ASV107","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"80","ASV107","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"81","ASV107","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"82","ASV107","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"83","ASV107","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"84","ASV107","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"85","ASV107","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"86","ASV107","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"87","ASV107","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"88","ASV107","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"89","ASV107","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"90","ASV107","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"91","ASV107","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"92","ASV107","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"93","ASV107","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"94","ASV107","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"95","ASV108","Bos","genus","Bos frontalis","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"96","ASV108","Bos","genus","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"97","ASV108","Bos","genus","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"98","ASV109","Bos taurus","species","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"99","ASV11","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"100","ASV11","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"101","ASV11","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"102","ASV11","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"103","ASV11","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"104","ASV110","Oncorhynchus","genus","Oncorhynchus gorbuscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",98.824,0,98.824
+"105","ASV110","Oncorhynchus","genus","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",98.817,0.007000000000005,98.824
+"106","ASV112","Bathyagonus pentacanthus","species","Bathyagonus pentacanthus","Bathyagonus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"107","ASV114","Hexagrammos decagrammus","species","Hexagrammos decagrammus","Hexagrammos","Hexagrammidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"108","ASV115","Oncorhynchus nerka","species","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"109","ASV116","Pleuronectidae","family","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"110","ASV116","Pleuronectidae","family","Platichthys stellatus","Platichthys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"111","ASV117","Acipenser fulvescens","species","Acipenser fulvescens","Acipenser","Acipenseridae","Acipenseriformes","Actinopteri","Chordata","Eukaryota",98.333,0,NA
+"112","ASV118","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"113","ASV118","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"114","ASV119","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"115","ASV119","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"116","ASV119","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"117","ASV119","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"118","ASV119","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"119","ASV119","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"120","ASV119","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"121","ASV119","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"122","ASV119","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"123","ASV119","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"124","ASV119","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"125","ASV119","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"126","ASV119","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"127","ASV119","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"128","ASV119","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"129","ASV119","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"130","ASV119","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"131","ASV12","Atheresthes","genus","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"132","ASV12","Atheresthes","genus","Atheresthes stomias","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"133","ASV120","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"134","ASV121","Canis lupus","species","Canis lupus","Canis","Canidae","Carnivora","Mammalia","Chordata","Eukaryota",100,0,NA
+"135","ASV122","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"136","ASV123","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.235,0,98.235
+"137","ASV124","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"138","ASV125","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"139","ASV125","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"140","ASV125","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"141","ASV125","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"142","ASV125","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"143","ASV125","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"144","ASV125","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"145","ASV125","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"146","ASV125","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"147","ASV125","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"148","ASV125","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"149","ASV125","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"150","ASV125","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"151","ASV125","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"152","ASV125","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"153","ASV125","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"154","ASV125","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"155","ASV126","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"156","ASV126","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"157","ASV126","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"158","ASV126","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"159","ASV126","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"160","ASV126","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"161","ASV126","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"162","ASV126","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"163","ASV126","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"164","ASV126","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"165","ASV126","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"166","ASV126","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"167","ASV126","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"168","ASV126","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"169","ASV126","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"170","ASV126","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"171","ASV126","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"172","ASV127","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"173","ASV127","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"174","ASV127","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"175","ASV127","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"176","ASV127","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"177","ASV127","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"178","ASV127","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"179","ASV127","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"180","ASV127","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"181","ASV127","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"182","ASV127","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"183","ASV127","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"184","ASV127","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"185","ASV127","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"186","ASV127","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"187","ASV127","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"188","ASV127","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"189","ASV129","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"190","ASV13","Thaleichthys pacificus","species","Thaleichthys pacificus","Thaleichthys","Osmeridae","Osmeriformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"191","ASV130","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"192","ASV130","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"193","ASV130","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"194","ASV130","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"195","ASV130","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"196","ASV130","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"197","ASV130","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"198","ASV130","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"199","ASV130","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"200","ASV130","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"201","ASV130","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"202","ASV130","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"203","ASV130","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"204","ASV130","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"205","ASV130","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"206","ASV130","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"207","ASV130","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"208","ASV131","Ovis","genus","Ovis aries","Ovis","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"209","ASV131","Ovis","genus","Ovis orientalis","Ovis","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"210","ASV132","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"211","ASV133","Diaphus theta","species","Diaphus theta","Diaphus","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"212","ASV134","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"213","ASV134","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"214","ASV135","Oncorhynchus","genus","Oncorhynchus gorbuscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",98.824,0,98.824
+"215","ASV135","Oncorhynchus","genus","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",98.817,0.007000000000005,98.824
+"216","ASV136","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.412,0,NA
+"217","ASV138","Oncorhynchus tshawytscha","species","Oncorhynchus tshawytscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"218","ASV139","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"219","ASV14","Oncorhynchus kisutch","species","Oncorhynchus kisutch","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"220","ASV140","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"221","ASV140","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"222","ASV140","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"223","ASV140","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"224","ASV140","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"225","ASV140","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"226","ASV140","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"227","ASV140","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"228","ASV140","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"229","ASV140","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"230","ASV140","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"231","ASV140","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"232","ASV140","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"233","ASV140","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"234","ASV140","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"235","ASV140","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"236","ASV140","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"237","ASV141","Mallotus villosus","species","Mallotus villosus","Mallotus","Salangidae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"238","ASV142","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"239","ASV142","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"240","ASV142","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"241","ASV142","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"242","ASV142","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"243","ASV142","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"244","ASV142","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"245","ASV142","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"246","ASV142","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"247","ASV142","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"248","ASV142","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"249","ASV142","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"250","ASV142","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"251","ASV142","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"252","ASV142","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"253","ASV142","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"254","ASV142","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"255","ASV143","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"256","ASV143","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"257","ASV143","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"258","ASV143","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"259","ASV143","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"260","ASV143","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"261","ASV143","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"262","ASV143","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"263","ASV143","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"264","ASV143","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"265","ASV143","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"266","ASV143","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"267","ASV143","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"268","ASV143","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"269","ASV143","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"270","ASV143","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"271","ASV143","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"272","ASV144","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"273","ASV144","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"274","ASV144","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"275","ASV144","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"276","ASV144","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"277","ASV144","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"278","ASV144","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"279","ASV144","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"280","ASV144","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"281","ASV144","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"282","ASV144","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"283","ASV144","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"284","ASV144","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"285","ASV144","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"286","ASV144","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"287","ASV144","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"288","ASV144","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"289","ASV146","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"290","ASV147","Thaleichthys pacificus","species","Thaleichthys pacificus","Thaleichthys","Osmeridae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"291","ASV148","Anarrhichthys ocellatus","species","Anarrhichthys ocellatus","Anarrhichthys","Anarhichadidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"292","ASV149","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"293","ASV149","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"294","ASV149","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"295","ASV149","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"296","ASV149","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"297","ASV149","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"298","ASV149","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"299","ASV149","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"300","ASV149","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"301","ASV149","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"302","ASV149","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"303","ASV149","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"304","ASV149","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"305","ASV149","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"306","ASV149","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"307","ASV149","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"308","ASV149","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"309","ASV15","Macrouridae","family","Albatrossia pectoralis","Albatrossia","Macrouridae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"310","ASV15","Macrouridae","family","Coryphaenoides acrolepis","Coryphaenoides","Macrouridae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"311","ASV150","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"312","ASV150","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"313","ASV150","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"314","ASV150","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"315","ASV150","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"316","ASV150","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"317","ASV150","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"318","ASV150","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"319","ASV150","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"320","ASV150","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"321","ASV150","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"322","ASV150","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"323","ASV150","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"324","ASV150","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"325","ASV150","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"326","ASV150","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"327","ASV150","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"328","ASV151","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"329","ASV151","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"330","ASV152","Ronquilus jordani","species","Ronquilus jordani","Ronquilus","Bathymasteridae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"331","ASV153","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"332","ASV153","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"333","ASV153","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"334","ASV153","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"335","ASV153","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"336","ASV154","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"337","ASV154","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"338","ASV156","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"339","ASV156","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"340","ASV156","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"341","ASV156","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"342","ASV156","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"343","ASV156","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"344","ASV156","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"345","ASV156","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"346","ASV156","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"347","ASV156","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"348","ASV156","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"349","ASV156","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"350","ASV156","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"351","ASV156","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"352","ASV156","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"353","ASV156","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"354","ASV156","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"355","ASV157","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"356","ASV158","Thaleichthys pacificus","species","Thaleichthys pacificus","Thaleichthys","Osmeridae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"357","ASV16","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"358","ASV160","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"359","ASV161","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"360","ASV161","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"361","ASV161","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"362","ASV161","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"363","ASV161","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",98.81,0,NA
+"364","ASV162","Ammodytes personatus","species","Ammodytes personatus","Ammodytes","Ammodytidae","Uranoscopiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"365","ASV163","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"366","ASV164","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",99.415,0,NA
+"367","ASV165","Atheresthes","genus","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"368","ASV165","Atheresthes","genus","Atheresthes stomias","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"369","ASV166","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"370","ASV166","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"371","ASV166","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"372","ASV166","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"373","ASV166","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"374","ASV166","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"375","ASV166","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"376","ASV166","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"377","ASV166","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"378","ASV166","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"379","ASV166","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"380","ASV166","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"381","ASV166","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"382","ASV166","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"383","ASV166","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"384","ASV166","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"385","ASV166","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"386","ASV167","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"387","ASV168","Hexagrammos decagrammus","species","Hexagrammos decagrammus","Hexagrammos","Hexagrammidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.412,0,NA
+"388","ASV17","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"389","ASV170","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"390","ASV170","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"391","ASV170","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"392","ASV170","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"393","ASV170","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"394","ASV170","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"395","ASV170","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"396","ASV170","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"397","ASV170","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"398","ASV170","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"399","ASV170","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"400","ASV170","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"401","ASV170","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"402","ASV170","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"403","ASV170","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"404","ASV170","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"405","ASV170","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"406","ASV171","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",99.415,0,NA
+"407","ASV172","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"408","ASV173","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"409","ASV173","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"410","ASV173","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"411","ASV173","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"412","ASV173","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"413","ASV173","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"414","ASV173","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"415","ASV173","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"416","ASV173","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"417","ASV173","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"418","ASV173","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"419","ASV173","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"420","ASV173","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"421","ASV173","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"422","ASV173","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"423","ASV173","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"424","ASV173","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"425","ASV174","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"426","ASV176","Gadus","genus","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.235,0,98.235
+"427","ASV176","Gadus","genus","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.235,0,98.235
+"428","ASV177","Eumetopias jubatus","species","Eumetopias jubatus","Eumetopias","Otariidae","Carnivora","Mammalia","Chordata","Eukaryota",100,0,NA
+"429","ASV178","Citharichthys sordidus","species","Citharichthys sordidus","Citharichthys","Cyclopsettidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"430","ASV179","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"431","ASV179","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"432","ASV179","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"433","ASV179","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"434","ASV179","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"435","ASV179","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"436","ASV179","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"437","ASV179","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"438","ASV179","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"439","ASV179","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"440","ASV179","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"441","ASV179","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"442","ASV179","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"443","ASV179","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"444","ASV179","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"445","ASV179","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"446","ASV179","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"447","ASV18","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"448","ASV180","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"449","ASV180","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"450","ASV181","Lepidopsetta","genus","Lepidopsetta bilineata","Lepidopsetta","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"451","ASV181","Lepidopsetta","genus","Lepidopsetta polyxystra","Lepidopsetta","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"452","ASV183","Protomyctophum thompsoni","species","Protomyctophum thompsoni","Protomyctophum","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"453","ASV184","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.408,0,NA
+"454","ASV185","Lycodes cortezianus","species","Lycodes cortezianus","Lycodes","Zoarcidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"455","ASV186","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"456","ASV188","Anoplopoma fimbria","species","Anoplopoma fimbria","Anoplopoma","Anoplopomatidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"457","ASV189","Bos taurus","species","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"458","ASV19","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"459","ASV190","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"460","ASV191","Ophiodon elongatus","species","Ophiodon elongatus","Ophiodon","Hexagrammidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"461","ASV193","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"462","ASV193","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"463","ASV193","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"464","ASV193","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"465","ASV193","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"466","ASV193","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"467","ASV193","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"468","ASV193","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"469","ASV193","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"470","ASV193","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"471","ASV193","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"472","ASV193","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"473","ASV193","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"474","ASV193","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"475","ASV193","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"476","ASV193","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"477","ASV193","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"478","ASV194","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.408,0,99.408
+"479","ASV195","Anoplopoma fimbria","species","Anoplopoma fimbria","Anoplopoma","Anoplopomatidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"480","ASV196","Acipenser fulvescens","species","Acipenser fulvescens","Acipenser","Acipenseridae","Acipenseriformes","Actinopteri","Chordata","Eukaryota",98.889,0,NA
+"481","ASV197","Bos taurus","species","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"482","ASV198","Chauliodus macouni","species","Chauliodus macouni","Chauliodus","Stomiidae","Stomiiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"483","ASV2","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"484","ASV2","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"485","ASV20","Hydrolagus colliei","species","Hydrolagus colliei","Hydrolagus","Chimaeridae","Chimaeriformes","Chondrichthyes","Chordata","Eukaryota",100,0,NA
+"486","ASV200","Bathylagidae","family","Bathylagus pacificus","Bathylagus","Bathylagidae","Argentiniformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"487","ASV200","Bathylagidae","family","Pseudobathylagus milleri","Pseudobathylagus","Bathylagidae","Argentiniformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"488","ASV201","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"489","ASV203","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"490","ASV203","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"491","ASV203","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"492","ASV203","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"493","ASV203","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"494","ASV203","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"495","ASV203","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"496","ASV203","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"497","ASV203","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"498","ASV203","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"499","ASV203","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"500","ASV203","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"501","ASV203","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"502","ASV203","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"503","ASV203","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"504","ASV203","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"505","ASV203","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"506","ASV204","Lycodes cortezianus","species","Lycodes cortezianus","Lycodes","Zoarcidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"507","ASV205","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"508","ASV206","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"509","ASV206","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"510","ASV207","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"511","ASV207","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"512","ASV208","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"513","ASV208","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"514","ASV209","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"515","ASV21","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"516","ASV211","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"517","ASV211","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"518","ASV211","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"519","ASV211","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"520","ASV211","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"521","ASV211","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"522","ASV211","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"523","ASV211","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"524","ASV211","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"525","ASV211","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"526","ASV211","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"527","ASV211","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"528","ASV211","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"529","ASV211","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"530","ASV211","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"531","ASV211","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"532","ASV211","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"533","ASV212","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"534","ASV212","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"535","ASV213","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"536","ASV214","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"537","ASV215","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"538","ASV216","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"539","ASV217","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"540","ASV217","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"541","ASV217","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"542","ASV217","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"543","ASV217","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"544","ASV217","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"545","ASV217","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"546","ASV217","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"547","ASV217","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"548","ASV217","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"549","ASV217","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"550","ASV217","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"551","ASV217","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"552","ASV217","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"553","ASV217","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"554","ASV217","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"555","ASV217","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"556","ASV218","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"557","ASV218","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"558","ASV219","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"559","ASV22","Oncorhynchus","genus","Oncorhynchus gorbuscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"560","ASV22","Oncorhynchus","genus","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.408,0.00400000000000489,99.412
+"561","ASV220","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"562","ASV221","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"563","ASV222","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"564","ASV223","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"565","ASV224","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"566","ASV225","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"567","ASV226","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"568","ASV227","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"569","ASV228","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"570","ASV228","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"571","ASV228","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"572","ASV228","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"573","ASV228","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"574","ASV228","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"575","ASV228","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"576","ASV228","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"577","ASV228","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"578","ASV228","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"579","ASV228","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"580","ASV228","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"581","ASV228","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"582","ASV228","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"583","ASV228","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"584","ASV228","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"585","ASV228","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"586","ASV229","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"587","ASV229","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"588","ASV23","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"589","ASV230","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.408,0,NA
+"590","ASV232","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.412,0,NA
+"591","ASV233","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"592","ASV233","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"593","ASV233","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"594","ASV233","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"595","ASV233","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"596","ASV234","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"597","ASV235","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"598","ASV235","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"599","ASV236","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.408,0,NA
+"600","ASV237","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"601","ASV237","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"602","ASV238","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"603","ASV238","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"604","ASV238","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"605","ASV238","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"606","ASV238","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"607","ASV239","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"608","ASV239","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"609","ASV239","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"610","ASV239","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"611","ASV239","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"612","ASV239","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"613","ASV239","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"614","ASV239","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"615","ASV239","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"616","ASV239","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"617","ASV239","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"618","ASV239","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"619","ASV239","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"620","ASV239","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"621","ASV239","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"622","ASV239","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"623","ASV239","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"624","ASV24","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"625","ASV240","Thaleichthys pacificus","species","Thaleichthys pacificus","Thaleichthys","Osmeridae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"626","ASV242","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"627","ASV242","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"628","ASV243","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.824,0,98.824
+"629","ASV244","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"630","ASV245","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.408,0,99.408
+"631","ASV246","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.408,0,NA
+"632","ASV247","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"633","ASV248","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"634","ASV248","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"635","ASV248","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"636","ASV248","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"637","ASV248","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"638","ASV248","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"639","ASV248","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"640","ASV248","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"641","ASV248","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"642","ASV248","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"643","ASV248","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"644","ASV248","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"645","ASV248","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"646","ASV248","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"647","ASV248","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"648","ASV248","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"649","ASV248","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"650","ASV249","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"651","ASV249","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"652","ASV25","Oncorhynchus keta","species","Oncorhynchus keta","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"653","ASV250","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"654","ASV251","Thaleichthys pacificus","species","Thaleichthys pacificus","Thaleichthys","Osmeridae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"655","ASV252","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"656","ASV252","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"657","ASV252","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"658","ASV252","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"659","ASV252","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"660","ASV252","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"661","ASV252","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"662","ASV252","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"663","ASV252","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"664","ASV252","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"665","ASV252","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"666","ASV252","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"667","ASV252","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"668","ASV252","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"669","ASV252","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"670","ASV252","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"671","ASV252","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"672","ASV253","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"673","ASV253","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"674","ASV255","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"675","ASV255","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"676","ASV255","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"677","ASV255","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"678","ASV255","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"679","ASV255","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"680","ASV255","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"681","ASV255","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"682","ASV255","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"683","ASV255","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"684","ASV255","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"685","ASV255","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"686","ASV255","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"687","ASV255","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"688","ASV255","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"689","ASV255","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"690","ASV255","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"691","ASV257","Balaenoptera physalus","species","Balaenoptera physalus","Balaenoptera","Balaenopteridae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"692","ASV258","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"693","ASV258","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"694","ASV258","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"695","ASV258","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"696","ASV258","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"697","ASV259","Atheresthes","genus","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.83,0,NA
+"698","ASV259","Atheresthes","genus","Atheresthes stomias","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.83,0,NA
+"699","ASV26","Poroclinus rothrocki","species","Poroclinus rothrocki","Poroclinus","Stichaeidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"700","ASV260","Oncorhynchus kisutch","species","Oncorhynchus kisutch","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"701","ASV261","Glyptocephalus zachirus","species","Glyptocephalus zachirus","Glyptocephalus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"702","ASV262","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"703","ASV262","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"704","ASV263","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"705","ASV265","Sagamichthys abei","species","Sagamichthys abei","Sagamichthys","Platytroctidae","Alepocephaliformes","Actinopteri","Chordata","Eukaryota",98.844,0,NA
+"706","ASV266","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"707","ASV267","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"708","ASV268","Oncorhynchus tshawytscha","species","Oncorhynchus tshawytscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"709","ASV269","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"710","ASV27","Oncorhynchus gorbuscha","species","Oncorhynchus gorbuscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"711","ASV270","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"712","ASV270","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"713","ASV271","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"714","ASV272","Felis catus","species","Felis catus","Felis","Felidae","Carnivora","Mammalia","Chordata","Eukaryota",100,0,NA
+"715","ASV273","Mallotus villosus","species","Mallotus villosus","Mallotus","Salangidae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"716","ASV274","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"717","ASV275","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"718","ASV276","Balaenoptera physalus","species","Balaenoptera physalus","Balaenoptera","Balaenopteridae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"719","ASV277","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"720","ASV277","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"721","ASV278","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"722","ASV279","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"723","ASV28","Hippoglossoides elassodon","species","Hippoglossoides elassodon","Hippoglossoides","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"724","ASV280","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"725","ASV280","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"726","ASV281","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"727","ASV282","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"728","ASV282","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"729","ASV283","Hemitripterus bolini","species","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"730","ASV284","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"731","ASV285","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.817,0,98.817
+"732","ASV286","Pleuronectidae","family","Isopsetta isolepis","Isopsetta","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"733","ASV286","Pleuronectidae","family","Parophrys vetulus","Parophrys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"734","ASV286","Pleuronectidae","family","Psettichthys melanostictus","Psettichthys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"735","ASV287","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"736","ASV287","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"737","ASV287","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"738","ASV287","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"739","ASV287","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"740","ASV287","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"741","ASV287","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"742","ASV287","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"743","ASV287","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"744","ASV287","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"745","ASV287","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"746","ASV287","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"747","ASV287","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"748","ASV287","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"749","ASV287","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"750","ASV287","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"751","ASV287","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.81,0,NA
+"752","ASV287","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"753","ASV287","Sebastes","genus","Sebastes ciliatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"754","ASV287","Sebastes","genus","Sebastes crameri","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"755","ASV287","Sebastes","genus","Sebastes diploproa","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"756","ASV287","Sebastes","genus","Sebastes mystinus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"757","ASV287","Sebastes","genus","Sebastes nigrocinctus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"758","ASV287","Sebastes","genus","Sebastes polyspinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"759","ASV287","Sebastes","genus","Sebastes reedi","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"760","ASV287","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"761","ASV287","Sebastes","genus","Sebastes variabilis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0.596000000000004,NA
+"762","ASV288","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"763","ASV288","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"764","ASV289","Chauliodus macouni","species","Chauliodus macouni","Chauliodus","Stomiidae","Stomiiformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"765","ASV29","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"766","ASV290","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"767","ASV290","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"768","ASV290","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"769","ASV290","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"770","ASV290","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"771","ASV290","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"772","ASV290","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"773","ASV290","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"774","ASV290","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"775","ASV290","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"776","ASV290","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"777","ASV290","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"778","ASV290","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"779","ASV290","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"780","ASV290","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"781","ASV290","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"782","ASV290","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"783","ASV291","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"784","ASV292","Protomyctophum thompsoni","species","Protomyctophum thompsoni","Protomyctophum","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"785","ASV293","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"786","ASV294","Rangifer tarandus","species","Rangifer tarandus","Rangifer","Cervidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"787","ASV296","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"788","ASV296","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"789","ASV296","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"790","ASV296","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"791","ASV296","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"792","ASV296","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"793","ASV296","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"794","ASV296","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"795","ASV296","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"796","ASV296","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"797","ASV296","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"798","ASV296","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"799","ASV296","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"800","ASV296","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"801","ASV296","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"802","ASV296","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"803","ASV296","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"804","ASV296","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"805","ASV296","Sebastes","genus","Sebastes ciliatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"806","ASV296","Sebastes","genus","Sebastes crameri","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"807","ASV296","Sebastes","genus","Sebastes diploproa","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"808","ASV296","Sebastes","genus","Sebastes mystinus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"809","ASV296","Sebastes","genus","Sebastes nigrocinctus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"810","ASV296","Sebastes","genus","Sebastes polyspinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"811","ASV296","Sebastes","genus","Sebastes reedi","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"812","ASV296","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"813","ASV296","Sebastes","genus","Sebastes variabilis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"814","ASV298","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"815","ASV3","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"816","ASV30","Ammodytes personatus","species","Ammodytes personatus","Ammodytes","Ammodytidae","Uranoscopiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"817","ASV300","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",99.415,0,NA
+"818","ASV301","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"819","ASV302","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"820","ASV304","Pleuronectidae","family","Hippoglossoides elassodon","Hippoglossoides","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.817,0,NA
+"821","ASV304","Pleuronectidae","family","Platichthys stellatus","Platichthys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",98.225,0.591999999999999,NA
+"822","ASV306","Mallotus villosus","species","Mallotus villosus","Mallotus","Salangidae","Osmeriformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"823","ASV307","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"824","ASV308","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"825","ASV309","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"826","ASV309","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"827","ASV309","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"828","ASV309","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"829","ASV309","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"830","ASV309","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"831","ASV309","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"832","ASV309","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"833","ASV309","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"834","ASV309","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"835","ASV309","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"836","ASV309","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"837","ASV309","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"838","ASV309","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"839","ASV309","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"840","ASV309","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"841","ASV309","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"842","ASV31","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"843","ASV311","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",99.415,0,NA
+"844","ASV312","Canis lupus","species","Canis lupus","Canis","Canidae","Carnivora","Mammalia","Chordata","Eukaryota",100,0,NA
+"845","ASV313","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"846","ASV315","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"847","ASV316","Canis lupus","species","Canis lupus","Canis","Canidae","Carnivora","Mammalia","Chordata","Eukaryota",100,0,NA
+"848","ASV319","Hydrolagus colliei","species","Hydrolagus colliei","Hydrolagus","Chimaeridae","Chimaeriformes","Chondrichthyes","Chordata","Eukaryota",98.901,0,NA
+"849","ASV32","Ophiodon elongatus","species","Ophiodon elongatus","Ophiodon","Hexagrammidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"850","ASV321","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",100,0,NA
+"851","ASV325","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.93,0,NA
+"852","ASV325","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"853","ASV325","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"854","ASV325","Sebastes","genus","Sebastes auriculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"855","ASV325","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"856","ASV325","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"857","ASV325","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"858","ASV325","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"859","ASV325","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"860","ASV325","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"861","ASV325","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"862","ASV325","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"863","ASV325","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"864","ASV325","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"865","ASV325","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"866","ASV325","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"867","ASV325","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"868","ASV325","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"869","ASV325","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.396,0.534000000000006,NA
+"870","ASV327","Hemitripterus","genus","Hemitripterus bolini","Hemitripterus","Agonidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.471,0,NA
+"871","ASV329","Sebastolobus","genus","Sebastolobus alascanus","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"872","ASV329","Sebastolobus","genus","Sebastolobus altivelis","Sebastolobus","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",96.429,0,NA
+"873","ASV33","Malacocottus","genus","Malacocottus kincaidi","Malacocottus","Psychrolutidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"874","ASV33","Malacocottus","genus","Malacocottus zonurus","Malacocottus","Psychrolutidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"875","ASV330","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"876","ASV330","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"877","ASV330","Sebastes","genus","Sebastes nebulosus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"878","ASV330","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",98.214,0,NA
+"879","ASV330","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"880","ASV330","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"881","ASV330","Sebastes","genus","Sebastes auriculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"882","ASV330","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"883","ASV330","Sebastes","genus","Sebastes diploproa","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"884","ASV330","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"885","ASV330","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"886","ASV330","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"887","ASV330","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"888","ASV330","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"889","ASV330","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"890","ASV330","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"891","ASV330","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"892","ASV330","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"893","ASV330","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"894","ASV330","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"895","ASV330","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"896","ASV330","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",97.619,0.594999999999999,NA
+"897","ASV331","Homo sapiens","species","Homo sapiens","Homo","Hominidae","Primates","Mammalia","Chordata","Eukaryota",98.246,0,NA
+"898","ASV34","Coryphaenoides cinereus","species","Coryphaenoides cinereus","Coryphaenoides","Macrouridae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"899","ASV35","Bathylagidae","family","Bathylagus pacificus","Bathylagus","Bathylagidae","Argentiniformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"900","ASV35","Bathylagidae","family","Pseudobathylagus milleri","Pseudobathylagus","Bathylagidae","Argentiniformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"901","ASV36","Lycodes cortezianus","species","Lycodes cortezianus","Lycodes","Zoarcidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"902","ASV37","Cryptacanthodes aleutensis","species","Cryptacanthodes aleutensis","Cryptacanthodes","Cryptacanthodidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"903","ASV38","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.824,0,98.824
+"904","ASV39","Oncorhynchus mykiss","species","Oncorhynchus mykiss","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"905","ASV4","Microstomus pacificus","species","Microstomus pacificus","Microstomus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"906","ASV40","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"907","ASV41","Atheresthes","genus","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"908","ASV41","Atheresthes","genus","Atheresthes stomias","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"909","ASV43","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"910","ASV44","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"911","ASV45","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"912","ASV46","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"913","ASV47","Melamphaes lugubris","species","Melamphaes lugubris","Melamphaes","Melamphaidae","Beryciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"914","ASV48","Nansenia candida","species","Nansenia candida","Nansenia","Microstomatidae","Argentiniformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"915","ASV49","Pleuronectidae","family","Isopsetta isolepis","Isopsetta","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"916","ASV49","Pleuronectidae","family","Parophrys vetulus","Parophrys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"917","ASV49","Pleuronectidae","family","Psettichthys melanostictus","Psettichthys","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"918","ASV5","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"919","ASV50","Glyptocephalus zachirus","species","Glyptocephalus zachirus","Glyptocephalus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"920","ASV51","Sebastes entomelas","species","Sebastes entomelas","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"921","ASV52","Ophiodon elongatus","species","Ophiodon elongatus","Ophiodon","Hexagrammidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.408,0,NA
+"922","ASV54","Mallotus villosus","species","Mallotus villosus","Mallotus","Salangidae","Osmeriformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"923","ASV55","Atheresthes","genus","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"924","ASV55","Atheresthes","genus","Atheresthes stomias","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"925","ASV56","Sagamichthys abei","species","Sagamichthys abei","Sagamichthys","Platytroctidae","Alepocephaliformes","Actinopteri","Chordata","Eukaryota",99.422,0,NA
+"926","ASV57","Oncorhynchus tshawytscha","species","Oncorhynchus tshawytscha","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"927","ASV58","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"928","ASV58","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"929","ASV58","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"930","ASV58","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"931","ASV58","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"932","ASV58","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"933","ASV58","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"934","ASV58","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"935","ASV58","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"936","ASV58","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"937","ASV58","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"938","ASV58","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"939","ASV58","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"940","ASV58","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"941","ASV58","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"942","ASV58","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"943","ASV58","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"944","ASV6","Hippoglossus stenolepis","species","Hippoglossus stenolepis","Hippoglossus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"945","ASV60","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
+"946","ASV61","Myoxocephalus","genus","Myoxocephalus quadricornis","Myoxocephalus","Cottidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"947","ASV61","Myoxocephalus","genus","Myoxocephalus scorpius","Myoxocephalus","Cottidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"948","ASV62","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"949","ASV63","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"950","ASV64","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"951","ASV65","Sebastes","genus","Sebastes ciliatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"952","ASV65","Sebastes","genus","Sebastes crameri","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"953","ASV65","Sebastes","genus","Sebastes polyspinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"954","ASV65","Sebastes","genus","Sebastes reedi","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"955","ASV65","Sebastes","genus","Sebastes variabilis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"956","ASV66","Sebastes nigrocinctus","species","Sebastes nigrocinctus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"957","ASV67","Glyptocephalus zachirus","species","Glyptocephalus zachirus","Glyptocephalus","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"958","ASV68","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",98.824,0,98.824
+"959","ASV69","Diaphus theta","species","Diaphus theta","Diaphus","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.415,0,NA
+"960","ASV7","Anoplopoma fimbria","species","Anoplopoma fimbria","Anoplopoma","Anoplopomatidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"961","ASV70","Gadus macrocephalus","species","Gadus macrocephalus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"962","ASV71","Oncorhynchus nerka","species","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"963","ASV73","Lycodes diapterus","species","Lycodes diapterus","Lycodes","Zoarcidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"964","ASV74","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.256,0,NA
+"965","ASV75","Bovidae","family","Bison bonasus","Bison","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"966","ASV75","Bovidae","family","Bos indicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"967","ASV75","Bovidae","family","Bos javanicus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"968","ASV75","Bovidae","family","Bos primigenius","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"969","ASV75","Bovidae","family","Bos taurus","Bos","Bovidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.405,0,NA
+"970","ASV76","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"971","ASV77","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"972","ASV78","Oncorhynchus","genus","Oncorhynchus keta","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"973","ASV78","Oncorhynchus","genus","Oncorhynchus nerka","Oncorhynchus","Salmonidae","Salmoniformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"974","ASV79","Gadus chalcogrammus","species","Gadus chalcogrammus","Gadus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",99.412,0,99.412
+"975","ASV8","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"976","ASV81","Melamphaes lugubris","species","Melamphaes lugubris","Melamphaes","Melamphaidae","Beryciformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"977","ASV82","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"978","ASV83","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"979","ASV85","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"980","ASV86","Sebastes","genus","Sebastes aleutianus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"981","ASV86","Sebastes","genus","Sebastes alutus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"982","ASV86","Sebastes","genus","Sebastes babcocki","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"983","ASV86","Sebastes","genus","Sebastes brevispinis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"984","ASV86","Sebastes","genus","Sebastes elongatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"985","ASV86","Sebastes","genus","Sebastes emphaeus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"986","ASV86","Sebastes","genus","Sebastes flavidus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"987","ASV86","Sebastes","genus","Sebastes helvomaculatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"988","ASV86","Sebastes","genus","Sebastes melanops","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"989","ASV86","Sebastes","genus","Sebastes miniatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"990","ASV86","Sebastes","genus","Sebastes pinniger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"991","ASV86","Sebastes","genus","Sebastes proriger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"992","ASV86","Sebastes","genus","Sebastes rosaceus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"993","ASV86","Sebastes","genus","Sebastes ruberrimus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"994","ASV86","Sebastes","genus","Sebastes variegatus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"995","ASV86","Sebastes","genus","Sebastes wilsoni","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"996","ASV86","Sebastes","genus","Sebastes zacentrus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",99.405,0,NA
+"997","ASV87","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"998","ASV89","Protomyctophum thompsoni","species","Protomyctophum thompsoni","Protomyctophum","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",99.425,0,NA
+"999","ASV9","Sebastes","genus","Sebastes borealis","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1000","ASV9","Sebastes","genus","Sebastes saxicola","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1001","ASV90","Sebastes","genus","Sebastes caurinus","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1002","ASV90","Sebastes","genus","Sebastes maliger","Sebastes","Sebastidae","Perciformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1003","ASV91","Phocoenoides dalli","species","Phocoenoides dalli","Phocoenoides","Phocoenidae","Artiodactyla","Mammalia","Chordata","Eukaryota",99.415,0,NA
+"1004","ASV92","Eleginus gracilis","species","Eleginus gracilis","Eleginus","Gadidae","Gadiformes","Actinopteri","Chordata","Eukaryota",100,0,100
+"1005","ASV93","Icosteus aenigmaticus","species","Icosteus aenigmaticus","Icosteus","Icosteidae","Scombriformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1006","ASV94","Atheresthes evermanni","species","Atheresthes evermanni","Atheresthes","Pleuronectidae","Pleuronectiformes","Actinopteri","Chordata","Eukaryota",100,0,NA
+"1007","ASV97","Stenobrachius leucopsarus","species","Stenobrachius leucopsarus","Stenobrachius","Myctophidae","Myctophiformes","Actinopteri","Chordata","Eukaryota",98.837,0,NA
+"1008","ASV98","Clupea pallasii","species","Clupea pallasii","Clupea","Clupeidae","Clupeiformes","Actinopteri","Chordata","Eukaryota",99.419,0,NA
+"1009","ASV99","Sus scrofa","species","Sus scrofa","Sus","Suidae","Artiodactyla","Mammalia","Chordata","Eukaryota",100,0,NA
