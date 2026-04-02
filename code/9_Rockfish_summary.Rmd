@@ -1,0 +1,342 @@
+---
+title: "Rockfish summary"
+output: html_document
+date: "2026-04-01"
+---
+
+libraries
+```{r}
+library(tidyverse)
+library(here)
+library(ggplot2)
+#devtools::install_github("thomasp85/scico")
+library(scico)
+library(vegan)
+library(reshape2)
+```
+
+load decontaminated ASV table 
+```{r}
+asv_table <- readRDS(here("data", "rkfish_decon", "decontaminated_asv_table.RDS"))
+```
+
+convert to taxon table
+make a few additional taxon edits to not have nested assignments 
+and remove any remaining pc reads 
+```{r}
+taxon_table <- asv_table %>%
+  filter(taxon != "Sebastes carnatus") %>% 
+  group_by(extraction_ID, replicate, protocol, taxon) %>%
+  summarize(reads = sum(reads)) %>%
+  filter(reads > 0) %>%
+  filter(extraction_ID != "PC") %>%
+  filter(extraction_ID != "NC")
+```
+
+load sample metadata
+```{r}
+metadata <- read.csv(here("data", "metadata_20260325run.csv")) %>%
+  select(extraction_ID, station) %>%
+  unique()
+# 
+# # get depth from catch data 
+# catch <- read.csv(here("catch_outputs", "metaprobe_haul_catch.csv")) %>%
+#   select(haul, depth_m) %>% unique()
+# 
+# taxon_table_w_meta <- taxon_table %>% 
+#   left_join(metadata) %>%
+#   left_join(catch, by = "haul")
+```
+
+summary table to compare new vs old longmire extraction protocol
+```{r}
+protocol_summary <- taxon_table %>% 
+  left_join(metadata, by = "extraction_ID") %>% 
+  group_by(protocol, extraction_ID, replicate, station) %>%
+  summarize(reads_per_replicate = sum(reads)) %>%
+  group_by(protocol) %>%
+  summarise(n_tech = n_distinct(extraction_ID, replicate),
+            n_extract = n_distinct(extraction_ID),
+            n_station = n_distinct(station),
+            avg_reads_per_replicate = mean(reads_per_replicate),
+            sd_reads_per_replicate = sd(reads_per_replicate))
+```
+
+make a summary table of the species and reads
+```{r}
+taxon_table_summary <- taxon_table %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  group_by(protocol, taxon) %>%
+  summarize(total_reads = sum(reads),
+            n_tech = n_distinct(extraction_ID, replicate),
+            n_extract = n_distinct(extraction_ID),
+            n_stations = n_distinct(station)) %>%
+  arrange(taxon)
+
+taxon_table_summary %>% group_by(protocol) %>% summarise(n_taxa = n_distinct(taxon))
+
+taxa_compare <- taxon_table_summary %>%
+  select(protocol, taxon, n_tech, n_extract, n_stations) %>%
+  pivot_wider(
+    names_from = protocol,
+    values_from = c(n_tech, n_extract, n_stations),
+    values_fill = 0
+  )
+
+#taxa_compare <- taxa_compare %>%
+#  mutate(
+#    diff_stations = n_stations_new - n_stations_old,
+#    diff_extracts = n_extract_new - n_extract_old,
+#    diff_tech = n_tech_new - n_tech_old
+#  ) %>% ungroup()
+
+#taxa_compare %>%
+#  summarise(
+#    mean_diff_stations = mean(diff_stations),
+#    mean_diff_extracts = mean(diff_extracts),
+#    mean_diff_tech = mean(diff_tech)
+#  )
+
+ggplot(taxa_compare, aes(x = n_stations_old, y = n_stations_new)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
+  labs(x = "Old protocol", y = "New protocol")
+```
+
+```{r}
+taxa_long <- taxa_compare %>%
+  pivot_longer(
+    cols = c(n_tech_old, n_tech_new,
+             n_extract_old, n_extract_new,
+             n_stations_old, n_stations_new),
+    names_to = c("level", "protocol"),
+    names_pattern = "n_(.*)_(old|new)",
+    values_to = "n"
+  )
+
+taxa_plot <- taxa_long %>%
+  mutate(level = factor(level,
+                        levels = c("stations", "extract", "tech"),
+                        labels = c("Station",  "Extraction", "Technical"))) %>%
+  pivot_wider(names_from = protocol, values_from = n) %>%
+  group_by(level, old, new) %>%
+  summarise(n_taxa = n(), .groups = "drop") %>%
+  ggplot(aes(x = old, y = new, color = level, size = n_taxa)) +
+  geom_point(alpha = 0.7) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed") + 
+  theme_bw() +
+  scale_x_continuous(trans = "sqrt") +
+  scale_y_continuous(trans = "sqrt") +
+  scale_size_continuous(range = c(1, 5), breaks = c(1, 2, 3))
+taxa_plot
+```
+```{r}
+#ggsave(here("figures", "rkfish_taxon_detections.png"), taxa_plot, dpi = 300, height = 4, width = 6)
+```
+
+
+```{r}
+taxon_table %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  group_by(protocol, station) %>%
+  summarize(n_taxa = n_distinct(taxon)) %>%
+  ungroup() %>%
+  group_by(protocol) %>%
+  summarize(min = min(n_taxa),
+            mean = mean(n_taxa),
+            max = max(n_taxa))
+```
+
+## summarize the technical replicates by extraction
+
+fill in 0's for taxa and then calculate means 
+```{r}
+taxon_table_mean <- taxon_table %>%
+  ungroup() %>%
+  select(extraction_ID, replicate, protocol, taxon, reads) %>%
+  pivot_wider(names_from = taxon, values_from = reads, values_fill = 0) %>%
+  pivot_longer(cols = c(4:22), names_to = "taxon", values_to = "reads") %>%
+  group_by(extraction_ID, replicate, protocol) %>%
+  mutate(total_reads = sum(reads),
+         prop_reads = reads/total_reads) %>%
+  ungroup() %>%
+  group_by(extraction_ID, replicate, protocol, taxon) %>%
+  summarize(mean_prop = mean(prop_reads))
+
+#check each sums to 1 
+taxon_table_mean %>% group_by(extraction_ID, replicate, protocol) %>% summarise(total = sum(mean_prop))
+```
+
+### eastern GOA
+
+plot eastern GOA stations 
+```{r}
+station_meta <- read.csv(here("data", "2022_GOA_eDNA_stations.csv"))
+
+eGOA <- station_meta %>% filter(StartLongitude > -140)
+
+scico_pal <- scico(19, palette = 'roma')
+
+eGOA_stations <- taxon_table_mean %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  filter(station %in% eGOA$Station) %>%
+  group_by(taxon) %>%
+  mutate(
+    pres = ifelse(sum(mean_prop) > 0, 1, 0),
+    # create a simplified x-axis label
+    protocol_label = ifelse(protocol == "old", "O", "N"),
+    # still keep unique x for each extractionID/replicate/protocol combo
+    x_id = interaction(extraction_ID, replicate, protocol, drop = TRUE)
+  ) %>%
+  filter(pres == 1) %>%
+  ggplot(aes(x=interaction(extraction_ID, replicate, protocol), y = mean_prop, fill = taxon)) +
+  geom_bar(stat = "identity") + 
+  # replace axis labels with protocol_label
+  scale_x_discrete(labels = function(x) {
+    # x comes in as the levels of x_id; map them to protocol_label
+    protocol_map <- setNames(ifelse(grepl("old", x), "O", "N"), x)
+    protocol_map[x]
+  }) +
+  scale_fill_manual(values = scico_pal) + 
+  theme_bw() +
+  facet_wrap(~station, scales = "free") +
+  labs(
+    y = "proportion of sequencing reads",
+    x = "") + 
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    legend.text = element_text(size = 8),
+    legend.key.size = unit(0.3, "cm"),
+    legend.position = "right",
+    legend.title = element_blank()
+  )
+eGOA_stations 
+
+ggsave(here("figures", "eGOA_stations_rockfish.png"), plot =eGOA_stations, dpi = 300, width = 9, height = 5)
+```
+
+
+## central GOA
+```{r}
+cGOA <- station_meta %>% filter(StartLongitude < -140) %>% filter(StartLongitude > -151)
+
+scico_pal <- scico(8, palette = 'roma')
+
+cGOA_stations <- taxon_table_mean %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  filter(station %in% cGOA$Station) %>%
+  group_by(taxon) %>%
+  mutate(
+    pres = ifelse(sum(mean_prop) > 0, 1, 0),
+    # create a simplified x-axis label
+    protocol_label = ifelse(protocol == "old", "O", "N"),
+    # still keep unique x for each extractionID/replicate/protocol combo
+    x_id = interaction(extraction_ID, replicate, protocol, drop = TRUE)
+  ) %>%
+  filter(pres == 1) %>%
+  ggplot(aes(x=interaction(extraction_ID, replicate, protocol), y = mean_prop, fill = taxon)) +
+  geom_bar(stat = "identity") + 
+  # replace axis labels with protocol_label
+  scale_x_discrete(labels = function(x) {
+    # x comes in as the levels of x_id; map them to protocol_label
+    protocol_map <- setNames(ifelse(grepl("old", x), "O", "N"), x)
+    protocol_map[x]
+  }) +
+  scale_fill_manual(values = scico_pal) + 
+  theme_bw() +
+  facet_wrap(~station, scales = "free") +
+  labs(
+    y = "proportion of sequencing reads",
+    x = "") + 
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    legend.text = element_text(size = 8),
+    legend.key.size = unit(0.3, "cm"),
+    legend.position = "right",
+    legend.title = element_blank()
+  )
+cGOA_stations 
+
+#ggsave(here("figures", "cGOA_stations_rockfish.png"), plot =cGOA_stations, dpi = 300, width = 9, height = 5)
+```
+
+#WGOA
+```{r}
+wGOA <- station_meta %>% filter(StartLongitude < -151)
+
+scico_pal <- scico(3, palette = 'roma')
+
+wGOA_stations <- taxon_table_mean %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  filter(station %in% wGOA$Station) %>%
+  group_by(taxon) %>%
+  mutate(
+    pres = ifelse(sum(mean_prop) > 0, 1, 0),
+    # create a simplified x-axis label
+    protocol_label = ifelse(protocol == "old", "O", "N"),
+    # still keep unique x for each extractionID/replicate/protocol combo
+    x_id = interaction(extraction_ID, replicate, protocol, drop = TRUE)
+  ) %>%
+  filter(pres == 1) %>%
+  ggplot(aes(x=interaction(extraction_ID, replicate, protocol), y = mean_prop, fill = taxon)) +
+  geom_bar(stat = "identity") + 
+  # replace axis labels with protocol_label
+  scale_x_discrete(labels = function(x) {
+    # x comes in as the levels of x_id; map them to protocol_label
+    protocol_map <- setNames(ifelse(grepl("old", x), "O", "N"), x)
+    protocol_map[x]
+  }) +
+  scale_fill_manual(values = scico_pal) + 
+  theme_bw() +
+  facet_wrap(~station, scales = "free") +
+  labs(
+    y = "proportion of sequencing reads",
+    x = "") + 
+  theme(
+    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    legend.text = element_text(size = 8),
+    legend.key.size = unit(0.3, "cm"),
+    legend.position = "right",
+    legend.title = element_blank()
+  )
+wGOA_stations 
+
+#ggsave(here("figures", "wGOA_stations_rockfish.png"), plot =wGOA_stations, dpi = 300, width = 9, height = 3)
+```
+
+
+```{r}
+allGOA_taxon_summary <- taxon_table_mean %>%
+  left_join(metadata, by = "extraction_ID") %>%
+  # remove taxa with zero total reads across the filtered data
+  group_by(taxon) %>%
+  filter(sum(mean_prop) > 0) %>%
+  ungroup() %>%
+  group_by(taxon) %>%
+  summarise(
+    # number of extractions with detection
+    n_extract = n_distinct(extraction_ID[mean_prop > 0]),
+    # number of stations with detection
+    n_stations = n_distinct(station[mean_prop > 0]),
+    # mean read proportion per station
+    mean_prop_per_station = mean(tapply(mean_prop, station, sum)),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(n_stations)) %>%
+  mutate(taxon = factor(taxon, levels = taxon))
+
+allGOA_taxa_plot <- ggplot(allGOA_taxon_summary, aes(x = taxon, y = n_stations)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  theme_bw() +
+  labs(
+    x = "Taxon",
+    y = "Number of Stations with Detection"
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+allGOA_taxa_plot
+
+#ggsave(here("figures", "allGOA_taxa_rockfish.png"), plot = allGOA_taxa_plot, dpi = 300, width = 9, height = 5)
+```
+

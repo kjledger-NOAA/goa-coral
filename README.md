@@ -33,4 +33,14 @@ blastn -query trimmed/filtered/outputs/myasvs.fasta \
 
 5. filter blastn results using '3_MiFish_blastn_taxonomy.Rmd'
 
+*** note: i moved some files/folders around to be able to upload small files/outputs to github and avoid the fastqs, so some file paths may now be inaccurate... 
+
+6. curate and decon the mifish libraries using "4_curate_and_decon.Rmd"
+
+7. summarize detections and compare extraction protocols using "5_MFish_summary.Rmd"
+
+
+### Rockfish libraries 
+
+
 

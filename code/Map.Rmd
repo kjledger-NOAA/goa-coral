@@ -1,0 +1,77 @@
+---
+title: "station map"
+output: html_document
+date: "2026-04-01"
+---
+
+make a map of GOA 2022 Coral Stations
+
+libraries 
+```{r}
+library(tidyverse)
+library(akgfmaps)
+library(sf)
+library(ggplot2)
+library(here)
+```
+
+
+```{r}
+#browseVignettes('akgfmaps')
+#?make_idw_map
+?get_base_layers
+
+goa <- get_base_layers(select.region = "goa", set.crs = 3338)
+```
+
+```{r}
+eDNA_test <- read.csv(here("data", "metadata_20260325run.csv"))
+
+stations <- read.csv(here("data", "2022_GOA_eDNA_stations.csv")) %>%
+  select(Station, StartLatitude, StartLongitude, MaximumDepthInMeters, Temperature, Substrate) %>%
+  unique() %>%
+  mutate(MaximumDepthInMeters = as.numeric(MaximumDepthInMeters)) %>%
+  mutate(test = ifelse(Station %in% eDNA_test$station, "yes", "no"))
+
+# Step 1: Convert to sf object (default CRS is WGS84, EPSG:4326)
+stations_sf <- st_as_sf(stations, coords = c("StartLongitude", "StartLatitude"), crs = 4326)
+
+# Step 2: Transform to Alaska Albers Equal Area (EPSG:3338)
+stations_sf_3338 <- st_transform(stations_sf, crs = 3338)
+
+# Print the resulting spatial object
+print(stations_sf_3338)
+```
+
+```{r}
+goa_y <- c(510000, 1200000)
+goa_x <- c(-350000, 1400000)  
+
+goa_plot <- ggplot() +
+  #geom_sf(data = ebs$survey.area) +
+  geom_sf(data = goa$bathymetry) +
+  geom_sf(data = goa$akland, fill = "grey70") +
+  geom_sf(data = stations_sf_3338, aes(color = MaximumDepthInMeters), size = 1) +
+  scale_color_viridis_c(direction = -1, name = "Maximum Depth (m)") +
+  coord_sf(xlim = goa_x,
+           ylim = goa_y) +
+  theme_bw()
+goa_plot
+ggsave(here("figures", "station_map.png"), plot = goa_plot, dpi = 300, width = 8, height = 3)
+```
+
+```{r}
+goa_test_plot <- ggplot() +
+  geom_sf(data = goa$bathymetry) +
+  geom_sf(data = goa$akland, fill = "grey70") +
+  geom_sf(data = stations_sf_3338, aes(color = test), size = 1) +
+  scale_color_manual(values = c("blue", "red")) +
+  coord_sf(xlim = goa_x,
+           ylim = goa_y) +
+  theme_bw() + 
+  labs(color = "In Test?")
+goa_test_plot
+ggsave(here("figures", "test_station_map.png"), plot = goa_test_plot, dpi = 300, width = 8, height = 3)
+
+```
+
