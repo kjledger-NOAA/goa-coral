@@ -42,5 +42,30 @@ blastn -query trimmed/filtered/outputs/myasvs.fasta \
 
 ### Rockfish libraries 
 
+1. removed primers from demultiplexed amplicon reads using cutadapt 
+in: /Users/kimberly.ledger/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/
+- conda activate cutadptenv
+- DATA=/Users/kimberly.ledger/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/
+- NAMELIST=$(ls ${DATA} | sed 's/e*_L001.*//' | uniq)
+- echo "${NAMELIST}"
+- mkdir trimmed
+- for i in ${NAMELIST}; do
+   cutadapt --discard-untrimmed -g ATNACCATATCTAGGNTTNAACC -G TGRRCTTGTTGGTCGGYT -o trimmed/${i}_R1.fastq.gz -p trimmed/${i}_R2.fastq.gz "$DATA/${i}_L001_R1_001.fastq.gz" "$DATA/${i}_L001_R2_001.fastq.gz";
+done
+- pigz -d trimmed/*.gz
+- mkdir trimmed/filtered
+- mkdir ../../data/rkfish_outputs
 
+2. process reads using '6_Rkfish_sequence_filtering.Rmd'
 
+3. perform taxonomic assignment using custom rockfish dloop database
+
+makeblastdb -in data/rkfish_db/rockfish_reference_db_534_20250117.fasta -dbtype nucl -out data/rkfish_db/rockfish_db_534_20250117
+
+blastn -query data/rkfish_outputs/myasvs.fasta \
+       -db data/rkfish_db/rockfish_db_534_20250117 \
+       -out data/rkfish_outputs/blastn_rkfish.txt \
+       -perc_identity 92 \
+       -qcov_hsp_perc 98 \
+       -num_threads 10 \
+       -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sscinames staxids'
