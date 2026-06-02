@@ -23,7 +23,7 @@ when running this code here are the only things that need to be customized
 
 name file path and check correct files are there - UPDATE FILE PATH DEPENDING ON DATASET - this should point to the trimmed folder
 ```{r}
-path <- "~/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/trimmed"
+path <- "~/Documents/goa-coral/fastq/20260520_GOAcoral_rckfish/trimmed"
 head(list.files(path))
 ```
 
@@ -146,7 +146,7 @@ head(track)
 
 export dada2 filtering summary 
 ```{r}
-out_path <- file.path(here("data", "rkfish_outputs"))
+out_path <- file.path(here("data", "20260520_rkfish_outputs"))
 
 write.csv(track, file = file.path(out_path, "track.csv"))
 ```

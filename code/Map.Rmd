@@ -48,8 +48,8 @@ goa_y <- c(510000, 1200000)
 goa_x <- c(-350000, 1400000)  
 
 goa_plot <- ggplot() +
-  #geom_sf(data = ebs$survey.area) +
-  geom_sf(data = goa$bathymetry) +
+  #geom_sf(data = goa$bathymetry) +
+  #geom_sf(data = goa$survey.strata) + 
   geom_sf(data = goa$akland, fill = "grey70") +
   geom_sf(data = stations_sf_3338, aes(color = MaximumDepthInMeters), size = 1) +
   scale_color_viridis_c(direction = -1, name = "Maximum Depth (m)") +
@@ -57,7 +57,7 @@ goa_plot <- ggplot() +
            ylim = goa_y) +
   theme_bw()
 goa_plot
-ggsave(here("figures", "station_map.png"), plot = goa_plot, dpi = 300, width = 8, height = 3)
+#ggsave(here("figures", "station_map.png"), plot = goa_plot, dpi = 300, width = 8, height = 3)
 ```
 
 ```{r}
@@ -71,7 +71,127 @@ goa_test_plot <- ggplot() +
   theme_bw() + 
   labs(color = "In Test?")
 goa_test_plot
-ggsave(here("figures", "test_station_map.png"), plot = goa_test_plot, dpi = 300, width = 8, height = 3)
+#ggsave(here("figures", "test_station_map.png"), plot = goa_test_plot, dpi = 300, width = 8, height = 3)
+```
 
+see where the station fall in relation to the GOA bottom trawl trawlable/untrawlable survey grid 
+
+```{r}
+# goa_stations_2025 <- st_read(here("data", "goa_stations_2025.gpkg"))
+# 
+# ggplot(goa_stations_2025) +
+#   geom_sf(aes(fill = TRAWLABLE)) + 
+#   scale_fill_manual(values = c("N" = "red", "Y" = "blue", "UNK" = "white")) +
+#   theme_minimal()
+```
+
+
+add goa coral 2022 stations to this map 
+```{r}
+# # Create dissolved NMFS area boundaries
+# nmfs_areas <- goa_stations_2025 %>%
+#   group_by(NMFS_AREA) %>%
+#   summarize(geometry = st_union(geom), .groups = "drop")
+# 
+# ggplot(goa_stations_2025) +
+#   geom_sf(aes(fill = TRAWLABLE)) + 
+#   scale_fill_manual(values = c("N" = "red", "Y" = "blue", "UNK" = "white")) +
+#   # NMFS area outlines
+#   geom_sf(
+#     data = nmfs_areas,
+#     fill = NA,
+#     color = "black",
+#     linewidth = 0.6) +
+#   theme_minimal() + 
+#   geom_sf(data = stations_sf_3338, size = 1, color = "green")
+```
+
+extract what the gap T/UT map says for each sampling station
+also in include what strata
+```{r}
+# #check crs
+# crs(goa_stations_2025)
+# crs(stations_sf_3338)
+# 
+# # Spatial join: add TRAWLABLE values to points
+# stations_joined <- st_join(
+#   stations_sf_3338,
+#   goa_stations_2025 %>% select(TRAWLABLE, NMFS_AREA),
+#   join = st_within   # use st_intersects if needed
+# )
+# 
+# stations_joined %>%
+#   as.data.frame() %>%
+#   count(NMFS_AREA, TRAWLABLE) %>%
+#   tidyr::pivot_wider(
+#     names_from = TRAWLABLE,
+#     values_from = n,
+#     values_fill = 0
+#   )
+```
+
+okay, since there are lots of "unknown" cell let me try using the trawlable/untrawlable map from: https://www.sciencedirect.com/science/article/pii/S0165783623001789
+
+```{r}
+map <- read.csv(here("data", "grid_table_w_data_4.csv"))
+
+map_sf <- st_as_sf(map, coords = c("long", "lat"), crs = 4326)
+
+ggplot(map_sf) + 
+  geom_sf(aes(color = score), size = 0.5) +
+  #scale_color_viridis_c() +  
+  scale_color_gradient2(low = "#BC4700", mid = "#D0D0D0", high = "#00467F", midpoint = 0, breaks = -4:5, labels = -4:5) + 
+  theme_minimal() +
+  labs(color = "Score")
+
+ggplot(map_sf) + 
+  geom_sf(aes(color = score2), size = 0.5) +
+  scale_color_manual(values = c("#00467F", "#D0D0D0", "#BC4700")) + 
+  theme_minimal() +
+  labs(color = "Category")
+```
+
+
+```{r}
+# Ensure same CRS as sampled stations
+map_sf <- st_transform(map_sf, st_crs(stations_sf_3338))
+
+ggplot(map_sf) + 
+  geom_sf(aes(color = score), size = 0.5) +
+  #scale_color_viridis_c() +  
+  scale_color_gradient2(low = "#BC4700", mid = "#D0D0D0", high = "#00467F", midpoint = 0, breaks = -4:5, labels = -4:5) + 
+  theme_minimal() +
+  labs(color = "Score") + 
+  geom_sf(data = stations_sf_3338, size = 1, color = "green")
+```
+
+extract nearest score
+```{r}
+# index of nearest map feature for each station
+nearest_idx <- st_nearest_feature(stations_sf_3338, map_sf)
+
+# extract nearest score
+stations_sf_3338$score_nearest <- map_sf$score[nearest_idx]
+```
+
+extract mean of nearest neighbors
+```{r}
+library(nngeo)
+
+k <- 5
+
+# nearest neighbor indices
+nn <- st_nn(
+  stations_sf_3338,
+  map_sf,
+  k = k,
+  returnDist = FALSE
+)
+
+# mean score across neighbors
+stations_sf_3338$score_mean_k <- sapply(
+  nn,
+  function(idx) mean(map_sf$score[idx], na.rm = TRUE)
+)
 ```
 

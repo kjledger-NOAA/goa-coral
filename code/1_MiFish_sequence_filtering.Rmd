@@ -1,7 +1,7 @@
 ---
 title: "filtering sequences using DADA2"
 author: "Kimberly Ledger"
-date: "2025-03-31"
+date: "2026-06-01"
 output: html_document
 ---
 
@@ -23,7 +23,7 @@ when running this code here are the only things that need to be customized
 
 name file path and check correct files are there - UPDATE FILE PATH DEPENDING ON DATASET - this should point to the trimmed folder
 ```{r}
-path <- "~/Documents/goa-coral/data/20260325_GOAcoral_MiFish/trimmed/"
+path <- "~/Documents/goa-coral/fastq/20260520_GOAcoral_mifish/trimmed/"
 head(list.files(path))
 ```
 
@@ -42,12 +42,12 @@ sample.names <- sapply(strsplit(basename(fnFs), "_"), `[`, 1)
 
 visualize quality of forward reads 
 ```{r, warning=FALSE}
-plotQualityProfile(fnFs[10:12])
+plotQualityProfile(fnFs[3:4])
 ```
 
 visualize quality of reverse reads
 ```{r, warning=FALSE}
-plotQualityProfile(fnRs[10:12])
+plotQualityProfile(fnRs[1:2])
 ```
 
 
@@ -78,16 +78,15 @@ head(out)
 ## learn the error rates 
 this takes a few minutes to run
 ```{r}
+# Retain only non-zero read samples 
+nonzero <- out[, "reads.out"] > 0
+filtFs <- filtFs[nonzero]
+filtRs <- filtRs[nonzero]
+
 errF <- learnErrors(filtFs, multithread=TRUE)
 errR <- learnErrors(filtRs, multithread=TRUE)
 ```
 
-
-## subset to include filtFs and filtRs where files exist
-```{r}
-filtFs <- filtFs[file.exists(filtFs)]
-filtRs <- filtRs[file.exists(filtRs)]
-```
 
 ## apply the sample inference to the filtered and trimmed reads
 ```{r, results= "hide"}
@@ -138,16 +137,18 @@ sum(seqtab.nochim)/sum(seqtab2)
 Track reads through the pipeline
 ```{r}
 getN <- function(x) sum(getUniques(x))
-track <- cbind(out, sapply(dadaFs, getN), sapply(dadaRs, getN), sapply(mergers, getN), rowSums(seqtab2), rowSums(seqtab.nochim))
+track <- cbind(out[nonzero,], sapply(dadaFs, getN), sapply(dadaRs, getN), sapply(mergers, getN), rowSums(seqtab2), rowSums(seqtab.nochim))
 # If processing a single sample, remove the sapply calls: e.g. replace sapply(dadaFs, getN) with getN(dadaFs)
 colnames(track) <- c("input", "filtered", "denoisedF", "denoisedR", "merged", "correct_length","nonchim")
-rownames(track) <- sample.names
+rownames(track) <- sample.names[nonzero]
 head(track)
 ```
 
 export dada2 filtering summary 
 ```{r}
-out_path <- file.path(path, "filtered", "outputs")
+library(here)
+
+out_path <- file.path(here("data", "20260520_mifish_outputs"))
 
 write.csv(track, file = file.path(out_path, "track.csv"))
 ```

@@ -17,7 +17,7 @@ library(reshape2)
 
 load decontaminated ASV table 
 ```{r}
-asv_table <- readRDS(here("data", "rkfish_decon", "decontaminated_asv_table.RDS"))
+asv_table <- readRDS(here("data", "20260520_rkfish_decon", "decontaminated_asv_table.RDS"))
 ```
 
 convert to taxon table
@@ -26,6 +26,7 @@ and remove any remaining pc reads
 ```{r}
 taxon_table <- asv_table %>%
   filter(taxon != "Sebastes carnatus") %>% 
+  filter(taxon != "Sebastes") %>%
   group_by(extraction_ID, replicate, protocol, taxon) %>%
   summarize(reads = sum(reads)) %>%
   filter(reads > 0) %>%
@@ -35,7 +36,7 @@ taxon_table <- asv_table %>%
 
 load sample metadata
 ```{r}
-metadata <- read.csv(here("data", "metadata_20260325run.csv")) %>%
+metadata <- read.csv(here("data", "metadata_20260520run.csv")) %>%
   select(extraction_ID, station) %>%
   unique()
 # 
@@ -155,7 +156,7 @@ taxon_table_mean <- taxon_table %>%
   ungroup() %>%
   select(extraction_ID, replicate, protocol, taxon, reads) %>%
   pivot_wider(names_from = taxon, values_from = reads, values_fill = 0) %>%
-  pivot_longer(cols = c(4:22), names_to = "taxon", values_to = "reads") %>%
+  pivot_longer(cols = c(4:12), names_to = "taxon", values_to = "reads") %>%          ### edit for number of species
   group_by(extraction_ID, replicate, protocol) %>%
   mutate(total_reads = sum(reads),
          prop_reads = reads/total_reads) %>%
@@ -175,7 +176,7 @@ station_meta <- read.csv(here("data", "2022_GOA_eDNA_stations.csv"))
 
 eGOA <- station_meta %>% filter(StartLongitude > -140)
 
-scico_pal <- scico(19, palette = 'roma')
+scico_pal <- scico(9, palette = 'roma')
 
 eGOA_stations <- taxon_table_mean %>%
   left_join(metadata, by = "extraction_ID") %>%
@@ -210,9 +211,10 @@ eGOA_stations <- taxon_table_mean %>%
     legend.position = "right",
     legend.title = element_blank()
   )
+
 eGOA_stations 
 
-ggsave(here("figures", "eGOA_stations_rockfish.png"), plot =eGOA_stations, dpi = 300, width = 9, height = 5)
+ggsave(here("figures", "20260520_eGOA_stations_rockfish.png"), plot =eGOA_stations, dpi = 300, width = 9, height = 5)
 ```
 
 
@@ -220,7 +222,7 @@ ggsave(here("figures", "eGOA_stations_rockfish.png"), plot =eGOA_stations, dpi =
 ```{r}
 cGOA <- station_meta %>% filter(StartLongitude < -140) %>% filter(StartLongitude > -151)
 
-scico_pal <- scico(8, palette = 'roma')
+scico_pal <- scico(4, palette = 'roma')
 
 cGOA_stations <- taxon_table_mean %>%
   left_join(metadata, by = "extraction_ID") %>%
@@ -257,7 +259,7 @@ cGOA_stations <- taxon_table_mean %>%
   )
 cGOA_stations 
 
-#ggsave(here("figures", "cGOA_stations_rockfish.png"), plot =cGOA_stations, dpi = 300, width = 9, height = 5)
+ggsave(here("figures", "20260520_cGOA_stations_rockfish.png"), plot =cGOA_stations, dpi = 300, width = 9, height = 5)
 ```
 
 #WGOA
@@ -337,6 +339,6 @@ allGOA_taxa_plot <- ggplot(allGOA_taxon_summary, aes(x = taxon, y = n_stations))
   )
 allGOA_taxa_plot
 
-#ggsave(here("figures", "allGOA_taxa_rockfish.png"), plot = allGOA_taxa_plot, dpi = 300, width = 9, height = 5)
+ggsave(here("figures", "20260520_allGOA_taxa_rockfish.png"), plot = allGOA_taxa_plot, dpi = 300, width = 9, height = 5)
 ```
 

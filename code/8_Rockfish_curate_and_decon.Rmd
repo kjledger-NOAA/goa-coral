@@ -14,7 +14,7 @@ library(here)
 perform additional taxonomic curation and summary of ASV taxonomic assignments
 ```{r}
 ## load taxonomic assignments
-assignments <- read.csv(here("data", "rkfish_outputs", "taxonomy_customrkfishdb.csv")) %>% unique() %>% select(!X) %>%
+assignments <- read.csv(here("data", "20260520_rkfish_outputs", "taxonomy_customrkfishdb.csv")) %>% unique() %>% select(!X) %>%
   rename(ASV = qseqid)
 ```
 
@@ -22,7 +22,7 @@ any advantage to using lulu with the rockfish seqs??? skipping for now.
 
 merge taxonomic assignments with ASV table 
 ```{r}
-asv_table <- read.csv(here("data", "rkfish_outputs", "ASVtable.csv")) %>%
+asv_table <- read.csv(here("data", "20260520_rkfish_outputs", "ASVtable.csv")) %>%
   rename(sample_id = X) %>%
   pivot_longer(cols = -1, names_to = "ASV", values_to = "reads") %>%
   filter(reads > 0) %>%
@@ -53,7 +53,7 @@ sum(removed_asvs$total_reads)/sum(asv_table$reads)
 
 add column to sample tracking table to include number of reads per sample after taxonomic assignment 
 ```{r}
-track <- read.csv(here("data", "rkfish_outputs", "track.csv")) %>%
+track <- read.csv(here("data", "20260520_rkfish_outputs", "track.csv")) %>%
   rename(sample_id = X) #%>%
   #rename(fastq_ID = sample_id) %>% 
   #mutate(sample_id = gsub("-", "_", sample_id))
@@ -70,7 +70,7 @@ track <- track %>%
 
 load sample metadata 
 ```{r}
-metadata <- read.csv(here("data", "metadata_20260325run.csv")) %>%
+metadata <- read.csv(here("data", "metadata_20260520run.csv")) %>%
   filter(primer == "Rockfish")
 ```
 
@@ -181,6 +181,8 @@ asv_table_filter2  %>%
 
 lot of rosethorn (Sebastes helvomaculatus) in one PCR negative control replicate
 
+20260520: few reads in one NC replicate
+
 
 #### 4 - Remove low read depth samples based on ASV accumulation curve
 
@@ -237,7 +239,7 @@ asv_table_filter3 <- asv_table_with_sample_type %>%
 ```
 
 ```{r}
-#saveRDS(asv_table_filter3, file = here("data", "rkfish_decon", "decontaminated_asv_table.RDS"))
+saveRDS(asv_table_filter3, file = here("data", "20260520_rkfish_decon", "decontaminated_asv_table.RDS"))
 ```
 
 also update and output the sample tracking file 
@@ -252,5 +254,5 @@ track <- track %>%
   left_join(reads_per_sample_decon, by = "fastq_ID") %>%
   mutate(decon_reads = ifelse(is.na(decon_reads), 0, decon_reads))
 
-#write.csv(track, here("data", "rkfish_decon", "track.csv"))
+write.csv(track, here("data", "20260520_rkfish_decon", "track.csv"))
 ```

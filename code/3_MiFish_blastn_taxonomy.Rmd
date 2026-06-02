@@ -22,7 +22,7 @@ library(here)
 
 ## load output from blastn 
 ```{r load-output-from-taxonkit}
-taxonomy <-read.delim(here("data", "20260325_GOAcoral_MiFish", "trimmed", "filtered", "outputs", "blastnresults"), header = FALSE, na.strings=c(""," ","NA"))
+taxonomy <-read.delim(here("data", "20260520_mifish_outputs", "blastnresults"), header = FALSE, na.strings=c(""," ","NA"))
 head(taxonomy)
 colnames(taxonomy) <- c("ASV", "subject", "pident", "length", "mismatch", "gapopen",
   "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq")
@@ -135,9 +135,6 @@ taxon_df <- taxon_df %>%
   mutate(species = ifelse(species == "Gadus ogac", "Gadus macrocephalus", species),
          species = ifelse(species == "Embassichthys bathybius", "Microstomus bathybius", species), 
          genus = ifelse(species == "Microstomus bathybius", "Microstomus", genus), 
-         species = ifelse(species == "Lycodopsis pacificus", "Lycodes pacificus", species), 
-         genus = ifelse(species == "Lycodes pacificus", "Lycodes", genus),
-         species = ifelse(species == "Nansenia sanrikuensis", "Nansenia candida", species),
          species = ifelse(species == "Nannobrachium regale", "Lampanyctus regalis", species),
          genus = ifelse(species == "Lampanyctus regalis", "Lampanyctus", genus))
 ```
@@ -391,8 +388,8 @@ seb_summary <- uncollapsed_taxonomy %>%
   ) #%>%
   #select(species) %>% unique()
 
-seb_cm <- pleuro_summary %>%
-  filter(species %in% c("Sebastes caurinus, Sebastes maliger"))
+#seb_cm <- pleuro_summary %>%
+#  filter(species %in% c("Sebastes caurinus, Sebastes maliger"))
 
 #uncollapsed_taxonomy <- uncollapsed_taxonomy %>%
 #  mutate(taxon = ifelse(ASV %in% seb_cm$ASV, "Sebastes_cm", taxon))
@@ -537,8 +534,8 @@ collapsed_taxonomy <- uncollapsed_taxonomy %>%
 ```
 
 ```{r}
-write.csv(uncollapsed_taxonomy, here("data", "mifish_tax_outputs", "uncollapsed_taxonomy.csv"))
-write.csv(collapsed_taxonomy, here("data", "mifish_tax_outputs", "collapsed_taxonomy.csv"))
+write.csv(uncollapsed_taxonomy, here("data", "20260520_mifish_tax_outputs", "uncollapsed_taxonomy.csv"))
+write.csv(collapsed_taxonomy, here("data", "20260520_mifish_tax_outputs", "collapsed_taxonomy.csv"))
 ```
 
 

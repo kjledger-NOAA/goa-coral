@@ -1,10 +1,14 @@
 # goa-coral
 
+## initial test dataset sequenced on 20260325
+## second test dataset (using diluted DNA input) sequenced on 20260520
+
+
 ### MiFish Libraries 
 1. removed primers from demultiplexed amplicon reads using cutadapt 
-in: /Users/kimberly.ledger/Documents/goa-coral/data/20260325_GOAcoral_MiFish/
+in: /Users/kimberly.ledger/Documents/goa-coral/fastq/20260520_GOAcoral_mifish/
 - conda activate cutadptenv
-- DATA=/Users/kimberly.ledger/Documents/goa-coral/data/20260325_GOAcoral_MiFish/
+- DATA=/Users/kimberly.ledger/Documents/goa-coral/fastq/20260520_GOAcoral_mifish/
 - NAMELIST=$(ls ${DATA} | sed 's/e*_L001.*//' | uniq)
 - echo "${NAMELIST}"
 - mkdir trimmed
@@ -13,7 +17,6 @@ in: /Users/kimberly.ledger/Documents/goa-coral/data/20260325_GOAcoral_MiFish/
 done
 - pigz -d trimmed/*.gz
 - mkdir trimmed/filtered
-- mkdir trimmed/filtered/outputs
 
 2. process reads using '1_MiFish_sequence_filtering.Rmd'
 
@@ -22,9 +25,9 @@ makeblastdb -in MIDORI2_UNIQ_NUC_GB267_srRNA_BLAST.fasta \
             -dbtype nucl \
             -out MIDORI2_UNIQ_NUC_GB267_srRNA_BLAST_db/MIDORI2_UNIQ_NUC_GB267_srRNA_BLAST_db
 
-blastn -query trimmed/filtered/outputs/myasvs.fasta \
+blastn -query data/20260520_mifish_outputs/myasvs.fasta \
        -db /Users/kimberly.ledger/Documents/metaprobes_BeringSea2024/MIDORI2_UNIQ_NUC_GB267_srRNA_BLAST_db/MIDORI2_UNIQ_NUC_GB267_srRNA_BLAST_db \
-       -out trimmed/filtered/outputs/blastnresults \
+       -out data/20260520_mifish_outputs/blastnresults \
        -perc_identity 96 -qcov_hsp_perc 100 \
        -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sscinames staxids" \
        -num_threads 10
@@ -37,15 +40,15 @@ blastn -query trimmed/filtered/outputs/myasvs.fasta \
 
 6. curate and decon the mifish libraries using "4_curate_and_decon.Rmd"
 
-7. summarize detections and compare extraction protocols using "5_MFish_summary.Rmd"
+7. summarize detections and compare extraction protocols using "5_MiFish_summary.Rmd"
 
 
 ### Rockfish libraries 
 
 1. removed primers from demultiplexed amplicon reads using cutadapt 
-in: /Users/kimberly.ledger/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/
+in: /Users/kimberly.ledger/Documents/goa-coral/fastq/20260520_GOAcoral_rckfish/
 - conda activate cutadptenv
-- DATA=/Users/kimberly.ledger/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/
+- DATA=/Users/kimberly.ledger/Documents/goa-coral/fastq/20260520_GOAcoral_rckfish/
 - NAMELIST=$(ls ${DATA} | sed 's/e*_L001.*//' | uniq)
 - echo "${NAMELIST}"
 - mkdir trimmed
@@ -54,7 +57,7 @@ in: /Users/kimberly.ledger/Documents/goa-coral/fastq/20260325_GOAcoral_Rockfish/
 done
 - pigz -d trimmed/*.gz
 - mkdir trimmed/filtered
-- mkdir ../../data/rkfish_outputs
+- mkdir ../../data/20260520_rkfish_outputs
 
 2. process reads using '6_Rkfish_sequence_filtering.Rmd'
 
@@ -62,10 +65,17 @@ done
 
 makeblastdb -in data/rkfish_db/rockfish_reference_db_534_20250117.fasta -dbtype nucl -out data/rkfish_db/rockfish_db_534_20250117
 
-blastn -query data/rkfish_outputs/myasvs.fasta \
+blastn -query data/20260520_rkfish_outputs/myasvs.fasta \
        -db data/rkfish_db/rockfish_db_534_20250117 \
-       -out data/rkfish_outputs/blastn_rkfish.txt \
+       -out data/20260520_rkfish_outputs/blastn_rkfish.txt \
        -perc_identity 92 \
        -qcov_hsp_perc 98 \
        -num_threads 10 \
        -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sscinames staxids'
+       
+4. link blast result to taxonomic assignment using "7_Rockfish_taxonomy.Rmd"
+
+6. curate and decon the mifish libraries using "8_Rockfish_curate_and_decon.Rmd"
+
+7. summarize detections and compare extraction protocols using "9_Rockfish_summary.Rmd"
+

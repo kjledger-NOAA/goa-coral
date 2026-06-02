@@ -12,7 +12,7 @@ library(here)
 
 input blastn results from custom rockfish database
 ```{r}
-rock <- read.table(here("data", "rkfish_outputs", "blastn_rkfish.txt"))  %>%
+rock <- read.table(here("data", "20260520_rkfish_outputs", "blastn_rkfish.txt"))  %>%
   filter(V4 > 100) %>% # make sure all retained matches are >100 bp
   select(-V5, -V6, -V7, -V8, -V9, -V10, -V11, -V12, -V13, -V14) %>%  #remove unnecessary columns
   group_by(V1, V2) %>% # group by the sequence key and the full taxonomy to reduce duplicate entries
@@ -172,5 +172,5 @@ rockfish_df_collapsed <- rockfish_df  %>%
 ```
 
 ```{r}
-#write.csv(rockfish_df_collapsed, here("data", "rkfish_outputs", "taxonomy_customrkfishdb.csv"))
+write.csv(rockfish_df_collapsed, here("data", "20260520_rkfish_outputs", "taxonomy_customrkfishdb.csv"))
 ```
